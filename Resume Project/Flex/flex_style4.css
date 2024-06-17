@@ -1,0 +1,33 @@
+#container {
+	height: 500px;
+	width: 500px;
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+/* justify-content properties~
+				flex-start => starts from left-side
+				flex-end => starts from right-side
+				center => places complete content at center
+				space-around => places complete content at center(leaving space in b/w)
+				space-between => places elements keeping equal spacing b/w them
+				space-evenly => places elements keeping equal space b/w them (at center) */
+}
+
+#container div {
+	height: 100px;
+	width: 100px;
+}
+
+#div1 {
+	background-color: red;
+}
+
+#div2 {
+	background-color: cyan;
+}
+
+#div3 {
+	background-color: orange;
+}

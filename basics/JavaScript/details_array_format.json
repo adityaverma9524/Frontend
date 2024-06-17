@@ -1,0 +1,28 @@
+[
+    {
+        "Key": "Value",
+        "firstName": "John",
+
+        "address": {
+            "Street": "2nd Street",
+            "City": "Los Angeles",
+            "Type": "This is Object-Notation"
+        },
+
+        "Phone-Numbers": ["12345-67890", "22330-55660", "This is Array-Notation"]
+    },
+
+    {
+        "Key": "Value",
+        "firstName": "John",
+
+        "address": {
+            "Street": "2nd Street",
+            "City": "Los Angeles",
+            "Type": "This is 2nd object in Object-Notation used."
+        },
+
+        "Phone-Numbers": ["12345-67890", "22330-55660", "This is Array-Notation"]
+    }
+]
+

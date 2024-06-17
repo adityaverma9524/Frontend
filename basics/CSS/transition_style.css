@@ -1,0 +1,22 @@
+div {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	background-color: aquamarine;
+/*	transform: rotate(120deg);*/
+/*	transform: scale(1.5, 2.5); TO SCALE THE SIZE*/
+/*	transform: translate(10%, 50px); TO DISPLACE THE DIV*/
+/*	transition: 1s ease-in-out;*/
+/*	transition: height 1s ease-in-out;	APPLY TRANSITION 1S ONLY TO HEIGHT, */
+/*	transition: all 1s ease-in-out; IT IS all BY DEFAULT*/
+/*	transition: 1s ease-in-out 0.5s; 0.5s IS DELAY FOR HOVER PROPERTIES TO ACTIVATE*/
+
+}
+
+
+div:hover {
+	height: 400px;
+	width: 400px;
+}

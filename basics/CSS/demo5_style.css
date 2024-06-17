@@ -1,0 +1,8 @@
+#sample-para {
+	font-weight: bolder; /* intensity b/w 100-900 (bold: 700) */
+	text-align: justify;
+	line-height: 40px; /* i.e. spacing b/w lines */
+	text-decoration: underline;
+}
+
+/* Refer "MDN web docs" web-site for help in CSS !! */

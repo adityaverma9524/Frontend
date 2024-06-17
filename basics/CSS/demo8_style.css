@@ -1,0 +1,25 @@
+#outer-div {
+	border: 2px solid black;
+	margin: 20px;
+}
+
+#div1 {
+	height: 200px;
+	width: 200px;
+	background-color: #303a7b;
+}
+
+#div2 {
+	height: 200px;
+	width: 200px;
+	background-color: orange;
+	position: relative; /* fixed => fixed at its ideal position (even on scrolling) */
+	left: 20px;		 /* relative => left, top etc. relative to its ideal position */
+	top: 20px;		 /* absolute => left, top etc. relative to its prev-adj position */
+}					 /* static => by default */ 
+
+#div3 {
+	height: 200px;
+	width: 200px;
+	background-color: maroon;
+}

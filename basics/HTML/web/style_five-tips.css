@@ -1,0 +1,100 @@
+a {
+	text-decoration: none;
+}
+
+main {
+	display: inline-block;
+	width: 70%;
+}
+
+#views img {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+}
+
+h1 {
+	font-size: 40px;
+	/*font-family: sans-serif;*/
+}
+
+p {
+	font-size: 20px;
+	/*font-family: sans-serif;*/
+}
+
+h1, p {
+	font-family: sans-serif;
+}
+
+/*.uppercase {
+	text-transform: uppercase;
+}
+
+.cursive {
+	font-family: cursive;
+}*/
+
+li h3{
+	color: red;
+	text-transform: uppercase;
+	font-family: cursive;
+}
+
+#site-title a {
+	font-size: 28px;
+	color: black;
+}
+
+#site-title a:hover {
+	color: orange;
+}
+
+#blog-title:hover {
+	color: orange;
+}
+
+#site-desc p{
+	color: red;
+}
+
+#blog-page-link {
+	color: black;
+}
+
+#blog-desc {
+	color: #717172;
+}
+
+/* Aside */
+
+.widget {
+	border-top: 4px solid black;
+}
+
+.widget input {
+	display: block;
+	background-color: #F7F7F7;
+	margin-bottom: 15px;
+	padding: 4px;
+	color: black;
+	font-size: 1.2rem;
+}
+
+button[type = "submit"] {
+	font-size: 1.2rem;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+.widget-title {
+	font-size: 1.5rem;
+}
+
+aside {
+	display: inline-block;
+	width: 21%;
+	vertical-align: top;
+}
+

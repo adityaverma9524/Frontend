@@ -1,0 +1,41 @@
+#container {
+	height: 75vh;
+	width: 75vw;
+	background-color: lightgrey;
+
+	display: flex;
+	flex-direction: column; /* row, row-reverse, column, column-reverse */
+}
+
+#container div {
+	height: 200px;
+	width: 200px;
+	font-size: 2rem;
+}
+
+#div1 {
+	background-color: cyan;
+	order: 1;
+/* order => place it to the right-most position(for flex-direction: row; & accordingly) 
+			according the value of order */
+/* simillarly to left-most position(for flex-direction: row; & accordingly)
+   if order is -ve */
+}
+
+#div2 {
+	background-color: red;
+	order: 2;
+}
+
+#div3 {
+	background-color: blue;
+	order: 5;
+}
+
+#div4 {
+	background-color: maroon;
+}
+
+#div5 {
+	background-color: orange;
+}

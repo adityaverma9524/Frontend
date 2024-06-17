@@ -1,0 +1,19 @@
+#div1 {
+	background-color: cyan;
+	border: 2px solid blue;
+
+	height: 100px;
+	width: 100px;
+
+	/* ON adjusting the view-port, we have constraints on width value !! */
+	min-width: 150px;
+	max-width: 250px;
+
+   /* Because we have content overflow, we can use following properties of overflow~ */
+   /* visible => overflow is visible */
+   /* hidden => extra content going out-of-space is hidden */
+   /* scroll => a scroll bar is provided to view the content */
+   /* auto => let the browser decide(depends on browser-to-browser) */
+
+   overflow: auto;
+} 

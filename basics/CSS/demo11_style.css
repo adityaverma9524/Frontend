@@ -1,0 +1,7 @@
+#container {
+	width: 50px;
+	height: auto;
+	border: 2px solid black;
+	overflow-wrap: break-word; /* Breaks the word to not making it go out of div area */
+/*	overflow-wrap: normal; => leaves it as it is (going out of div area)*/
+}

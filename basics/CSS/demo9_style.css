@@ -1,0 +1,16 @@
+#div1 {
+	height: 200px;
+	width: 200px;
+	background-color: cyan;
+	margin: 4px;
+
+	border: 2px solid blue; /* Till Now: it takes size->(204 x 204) 
+								         & content area->(200 x 200) */
+	padding: 2px; /* Till Now: it takes size->(208 x 208) 
+							   & content area->(200 x 200) */
+
+/*	box-sizing: content-box;*/ /* this will also take size->(208 x 208)
+										  & content area->(200 x 200) */
+
+	box-sizing: border-box; /* => Content Area = (192 x 192) */
+}

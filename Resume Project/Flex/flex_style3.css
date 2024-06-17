@@ -1,0 +1,28 @@
+#container {
+	height: 500px;
+	width: 300px;
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+}
+
+#div1 {
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	flex-grow: 4;
+	/* flex-grow: 4; => of the portion-left-uncovered,
+				       add 4 segments of that to div1 */
+
+	flex-shrink: 4;
+	/* flex-shrink: 4; => of the portion-extra-covered,
+				       reduce 4 segments of that from div1 */
+}
+
+#div2 {
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	flex-grow: 1;
+	flex-shrink: 1;
+}

@@ -1,0 +1,65 @@
+html {
+	font-size: 30px;
+}
+
+/* Margin->empty space outside the element */
+/* Padding->empty space(b/w element & content inside element) inside element */
+
+#outer-div1 {
+	height: 200px;
+	width: 200px;
+	background-color: rgb(8, 8, 125, 1);
+
+/*	margin: 20px; => 20px all 4-sides*/
+/*	margin: 20px 80px; => 20px:top-bottom 80px:left-right*/
+/*	margin: 10px 20px 30px 40px; => top-right-bottom-left*/
+/*	margin: auto; => centers horizontally*/
+
+/*	margin-top: 10px;*/
+	margin-bottom: 20px; 
+
+	padding: 40px 20px 30px 10px;
+}
+
+#inner-div1 {
+	height: 50%;
+	width: 50%;
+	background-color: cyan;
+}
+
+#outer-div2 {
+	height: 200px;
+	width: 200px;
+	background-color: orange;
+	margin-top: 20px; /* Vertical margins don't add-up, they COLLAPSE !! */
+					
+}
+
+/* Horizontal margins ADD-UP !! */
+
+#span1 {
+	display: inline-block; 
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	margin-right: 40px;
+}
+
+#span2 {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	margin-left: 40px;
+}
+
+/* display is a property to define nature of div & span elements,
+   display can be inline, or block, or inline-block */
+
+ #para1 {
+ 	display: inline;
+ }
+
+ #para2 {
+ 	display: inline-block;
+ }

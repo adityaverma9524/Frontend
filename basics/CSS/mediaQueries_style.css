@@ -1,0 +1,54 @@
+/*
+__________________________
+Mobile-first View Approach
+__________________________
+*/
+
+#div1 {
+	width: 100%;
+	border: 2px solid black;
+}
+
+@media screen and (min-width: 700px) {
+	#div1 {
+		width: 80%;
+		border: 2px solid black;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#div1 {
+		width: 60%;
+		border: 2px solid black;
+	}
+}
+
+/*
+
+___________________________
+Desktop-first View Approach
+___________________________
+
+#div1 {
+	width: 60%;
+	border: 2px solid black;
+}
+
+/* The correct way to write media querie for these constarints is to
+   write it i descending order. 
+   Otherwise, doing it in ascending order overlaps the other case properties. 
+
+@media screen and (max-width: 900px) {
+	#div1 {
+		width: 80%;
+		border: 2px solid black;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#div1 {
+		width: 100%;
+		border: 2px solid black;
+	}
+}
+*/

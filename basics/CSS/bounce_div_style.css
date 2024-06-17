@@ -1,0 +1,32 @@
+@keyframes bounce_div {
+	from {
+        transform: translateY(-75px);
+    }
+    
+    25% {
+        transform: translateY(0px);
+    }
+    
+    50% {
+        transform: translateY(-50px);
+    }
+    
+    75% {
+        transform: translateY(0px);
+    }
+    
+    to {
+        transform: translateY(-25px);
+    }
+}
+
+div {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	background-color: aquamarine;
+	animation: bounce_div 1s ease-in-out 1;
+}
+

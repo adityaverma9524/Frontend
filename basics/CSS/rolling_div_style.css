@@ -1,0 +1,19 @@
+@keyframes rolling_div {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(-360deg);
+	}
+}
+
+div {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: aquamarine;
+	animation: rolling_div 0.5s ease-in-out 5 alternate;
+}

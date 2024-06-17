@@ -1,0 +1,34 @@
+:root {
+	--text-color: red;
+}
+
+.container {
+	color: var(--text-color);
+	padding: 1rem;
+	border: 2px solid black;
+}
+
+.inner-div1 {
+	/*text-color will be that defined for its parent element*/
+	--text-color: blue; /*BUT NOW ITS CHANGED*/
+	color: var(--text-color, orange); /*text-color will be orange if var is NOT-recognized*/
+	padding: 1rem;
+	margin: 0.2rem;
+	border: 2px solid black;
+}
+
+.inner-div2 { 
+	/*text-color will be that defined for its parent element*/
+/*	color: var(--text-color, orange); NOT necesserily Required*/
+	padding: 1rem;
+	margin: 0.2rem;
+	border: 2px solid black;
+}
+
+.inner-div3 {
+	/*text-color will be that defined for its parent element*/
+/*	color: var(--text-color, orange); NOT necesserily Required*/
+	padding: 1rem;
+	margin: 0.2rem;
+	border: 2px solid black;
+}

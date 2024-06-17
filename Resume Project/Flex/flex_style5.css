@@ -1,0 +1,40 @@
+#container {
+	height: 500px;
+	width: 500px;
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	/* The style selected in flex-direction => MAIN-axis */
+	/* The axis perpendicular to this is CROSS-axis */
+
+/*	align-items: stretch;*/
+	align-items: baseline;
+	/*align-items properties~
+			flex-start => places elements at the start of cross-axis(at top for row as MAIN-axis)
+			flex-end => places elements at the end of cross-axis(at bottom for row as MAIN-axis)
+			center => places elements at center of cross-axis
+			stretch => stretches elements across cross-axis
+			baseline => aligns all the items across their baseline
+			*/
+}
+
+#container div {
+/*	height: auto; i.e. used when using align-items: stretch;*/
+	height: 100px;
+	width: 100px;
+}
+
+#div1 {
+	background-color: red;
+	margin: 10px;
+}
+
+#div2 {
+	background-color: cyan;
+	margin: 20px;
+}
+
+#div3 {
+	background-color: orange;
+	margin: 30px;
+}

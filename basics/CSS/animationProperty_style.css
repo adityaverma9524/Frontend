@@ -1,0 +1,28 @@
+@keyframes changeShape {
+	from/*i.e. 0%*/ {
+		border-radius: 0%;
+	}
+
+	25% {
+		border-radius: 12.5%;
+	}
+
+	50% {
+		border-radius: 50%;
+	}
+
+	to/*i.e. 100%*/ {
+		border-radius: 50%;
+	}
+}
+
+div {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	background-color: aquamarine;
+	animation: changeShape 1s ease-in-out /*5 OR */infinite alternate;
+	/*name, duration, transition-style, num-of-times-repeat, repeat-style*/
+}

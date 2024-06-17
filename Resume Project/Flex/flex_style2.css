@@ -1,0 +1,41 @@
+#container {
+	height: auto;
+	width: 75vw;
+	background-color: lightgrey;
+
+	display: flex;
+	flex-direction: row-reverse; /* row, row-reverse, column, column-reverse */
+	flex-wrap: wrap-reverse;
+/*	wrap => wraps(rotates) extra elements in clock-wise direction*/
+/*	wrap-reverse => wraps(rotates) extra elements in anti-clock-wise direction*/
+
+/* For row-reverse or column-reverse ~
+				wrap => anti-clock-wise
+				wrap-reverse => clock-wise */
+}
+
+#container div {
+	height: 300px;
+	width: 300px;
+	font-size: 2rem;
+}
+
+#div1 {
+	background-color: cyan;
+}
+
+#div2 {
+	background-color: red;
+}
+
+#div3 {
+	background-color: blue;
+}
+
+#div4 {
+	background-color: maroon;
+}
+
+#div5 {
+	background-color: orange;
+}

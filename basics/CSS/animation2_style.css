@@ -1,0 +1,14 @@
+div {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	background-color: aquamarine;
+	transition: all 1s ease-in-out;
+}
+
+div:hover {
+	transform: scale(0.5) translate(250px, -50px) rotate(360deg);
+	border-radius: 50%;
+}
