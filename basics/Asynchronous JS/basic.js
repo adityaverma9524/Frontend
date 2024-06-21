@@ -22,5 +22,3 @@ const timer = setInterval(() => {
         clearInterval(timer);
     }
 }, 1000);
-
-
